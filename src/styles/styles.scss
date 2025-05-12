@@ -1,0 +1,39 @@
+/* COLORES DE LA UNI */
+/* COLOR FUERTE #71785b */
+/* COLOR BAJO #CBCABE */
+// COLOR CAFE #996644
+$theme-colors: (
+    "primary": #059373,
+    "sidebar-color-custom":#0155AD,
+    "sidebar-background":#ecf0f1,
+    "check-sidebar": #c5c5c5,
+    "secondary": #656b70,
+    "gray" :  #495057,
+    "white": #f8f9fa,
+    "student": rgb(71, 104, 150),
+    "teacher": rgb(71, 150, 109),
+    "admin": rgb(71, 104, 109),
+    "danger": #BE3E3F,
+    "warning": #FFC107,
+    "dark-secondary": #6a7478,
+    "blue-soft": #618dc7,
+    "green-soft": #9fa83e,
+    "green-soft-light":#61c791,
+    "blue-strong-soft":#6180c7,
+    "purple-soft":#6161c7 ,
+    "grey-soft":#e6e6e6,
+);
+
+.btn-outline-danger {
+    border: 1px solid #BE3E3F !important;
+    color: #BE3E3F !important;
+    background-color: transparent !important;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+}
+
+.btn-outline-danger:hover {
+    background-color: #BE3E3F !important;
+    color: #fff !important;
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';

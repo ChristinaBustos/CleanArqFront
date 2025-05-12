@@ -1,0 +1,5 @@
+export enum Category {
+    SELECTIVO = 'SELECTIVO',
+    TALLER = 'TALLER',
+    EXTRACURRICULAR = "EXTRACURRICULAR"
+}

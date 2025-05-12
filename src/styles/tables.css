@@ -1,0 +1,27 @@
+.custom-header {
+    background-color: var(white);
+    color: var(gray);
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid var(gray);
+}
+
+.actions-container {
+    display: flex;
+    justify-content: center;
+}
+
+.actions-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.button-actions,
+.button-actions-sm {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50%; 
+}
+
